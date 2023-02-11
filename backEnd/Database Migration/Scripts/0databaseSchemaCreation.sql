@@ -1,0 +1,1 @@
+CREATE SCHEMA `construction` DEFAULT CHARACTER SET utf8 ;
