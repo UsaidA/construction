@@ -14,7 +14,7 @@ exports.authenticate = (req, res) => {
 
             Login.findByEmailRegMA(req.body.email, async(errr, data1) => {
 
-                if(errr){ // if no student 
+                if(errr){ // if no manager
 
                     res.status(500).send({
                         message:
