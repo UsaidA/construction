@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "angular-slickgrid": "^5.6.3",
+    "jquery": "^3.6.4",
+    "slickgrid": "^3.0.4"
+  }
+}

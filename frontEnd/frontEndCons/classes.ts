@@ -86,7 +86,7 @@ static logOut(){
 }
 
 class Job{
-    constructor(public jobID: string, public projectID: string, public description: Date, public completed: string){
+    constructor(public jobID: string, public projectID: string, public description: String, public completed: string){
         this.jobID = jobID;
         this.projectID = projectID;
         this.description = description;

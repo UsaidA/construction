@@ -35,7 +35,10 @@
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
-            "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "node_modules/jquery/dist/jquery.min.js",
+            "node_modules/slickgrid/slick.core.js",
+            "node_modules/slickgrid/slick.grid.js"
           ]
           },
           "configurations": {
@@ -97,7 +100,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/slickgrid/slick.grid.css",
+                "node_modules/slickgrid/slick-default-theme.css"
             ],
             "scripts": []
           }

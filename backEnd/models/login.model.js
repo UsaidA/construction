@@ -11,7 +11,7 @@ const Login = function(login){
 }
 
 Login.findByEmailRegWO = (email, result) => { // find registered Teacehrs
-    sql.query(`SELECT * FROM contruction.registeration_worker WHERE email = '${email}'`, (err, res) => {
+    sql.query(`SELECT * FROM construction.registration_worker WHERE email = '${email}'`, (err, res) => {
     
       if (err) {
         console.log("error: ", err);
